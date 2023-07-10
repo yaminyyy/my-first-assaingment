@@ -24,8 +24,28 @@ body{
     padding: 10px;
 }
 .logo{
-    margin-left: 60px;
+    padding-right: 30px;
 }
 .nav-heading{
     font-size: 60px;
+}
+.banner-heading{
+    font-size: 35px;
+}
+.heading-turn{
+    color: red;
+}
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: bisque;
+}
+.banner-content{
+    text-align: center;
+    padding-left:110px ;
+}
+.flower-logo{
+    padding-right:150px ;
 }
