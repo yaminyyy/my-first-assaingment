@@ -99,3 +99,43 @@ body{
     padding:120px ;
 
 }
+.featured-content{
+    margin-top:50px ;
+    text-align:center ;
+}
+.flower{
+    width:250px ;
+    height:300px ;
+    background-color: antiquewhite;
+    border-radius:50px 20px;
+    
+}
+.allflowers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flower-info{
+    margin-top: 50px;
+}
+.box1{
+    width:200px ;
+    height:250px ;
+    background-color:white;
+    text-align: center;
+    color:black;
+    margin-left: 7px;
+    margin-bottom: 7px;
+}
+.flowers-container{
+    height:100vh ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+
+}
+.firsttwo-box{
+    display: flex;
+}
