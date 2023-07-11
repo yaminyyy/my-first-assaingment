@@ -27,6 +27,9 @@ body{
     border: 0px;
     padding: 10px;
 }
+.heading-turn{
+    color: red;
+}
 .logo{
     padding-right: 30px;
 }
@@ -36,9 +39,7 @@ body{
 .banner-heading{
     font-size: 35px;
 }
-.heading-turn{
-    color: red;
-}
+
 .banner-container{
     
     display: flex;
@@ -79,20 +80,7 @@ body{
 }
 
 
-.footer-container{
-    margin-top: 60px;
-    height:100% ;
-    background-color: black;
-    color:white ;
-    text-align: center;
-    padding:120px ;
 
-}
-.foot-info{
-    font-size: 10px;
-    color: blueviolet;
-    margin-top: 20px;
-}
 .featured-content{
     margin-top:50px ;
     text-align:center ;
@@ -157,4 +145,20 @@ body{
     height: 20px;
     border-radius: 5px;
     border: 0px;
+}
+
+
+.footer-container{
+    margin-top: 60px;
+    height:100% ;
+    background-color: black;
+    color:white ;
+    text-align: center;
+    padding:120px ;
+
+}
+.foot-info{
+    font-size: 10px;
+    color: blueviolet;
+    margin-top: 20px;
 }
