@@ -24,6 +24,7 @@ body{
     background-color: tomato;
     color: white;
     border-radius: 5px;
+    border: 0px;
     padding: 10px;
 }
 .logo{
@@ -63,15 +64,15 @@ body{
 .box{
     width:200px ;
     height:200px ;
-    margin-right: 10px;
+    margin-left: 10px;
     
     
 }
 .allbox{
     display: flex;
     width:60% ;
-    
-    margin:auto ;
+    margin-left: 230px;
+    /* margin:auto ; */
     padding-bottom: 20px;
     margin-top: 20px;
     
@@ -104,6 +105,8 @@ body{
     
 }
 .allflowers{
+    /* width: 70%; */
+    /* margin: auto; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -128,9 +131,30 @@ body{
     justify-content: space-around;
     background-color: black;
     color: white;
+    margin-top:50px ;
 
 }
 .firsttwo-box{
     display: flex;
     
+}
+.deals-container{
+    margin-top: 50px;
+    text-align: center;
+    background-image: url(/Rectangle\ 9.png);
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+    width:70% ;
+    margin-left:200px ;
+    padding-bottom: 50px;
+}
+.deals-info {
+    padding-top: 100px;
+}
+.input {
+    width: 50%;
+    height: 20px;
+    border-radius: 5px;
+    border: 0px;
 }
